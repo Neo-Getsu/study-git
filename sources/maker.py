@@ -29,5 +29,5 @@ class PizzaMaker:
         self._gain += price  # Gain money
         error = self.__try_to_get_ingredients(ingredients)
         if error is not None:
-            return False, error
+            return True, error
          
